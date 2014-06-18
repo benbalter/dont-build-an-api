@@ -1,0 +1,25 @@
+title: "Don't **Build** an API"
+description: "At least not the way you think"
+
+exclude:
+  - script
+  - ".gitignore"
+  - Gemfile
+  - Gemfile.lock
+  - readme.md
+  - node_modules
+  - ".sass-cache"
+  - "package.json"
+  - "*.scss"
+  - "*.coffee"
+  - "*.less"
+  - src
+  - "bower.json"
+
+pygments: true
+markdown: kramdown
+excerpt_separator: ""
+
+gems:
+  - jekyll-mentions
+  - jemoji
